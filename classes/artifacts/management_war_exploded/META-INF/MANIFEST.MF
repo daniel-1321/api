@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: TiDi
+Build-Jdk: 11.0.3
+Implementation-Title: management
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.coffee
+Main-Class: ${start-class}
+
