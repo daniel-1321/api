@@ -34,6 +34,10 @@ public class News {
     @Column
     @NotNull
     private String nws_image;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "adm_id", referencedColumnName = "adm_id", insertable = false, updatable = false)
+    private Admin admin;
     @Column
     private long adm_id;
 }
